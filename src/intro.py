@@ -59,8 +59,8 @@ while 5 != number:
 
 print( "You're logged in.\n" )
 
-names = [ 'jack', 'edward', 'obama' ]
-surnames = [ 'sparrow', 'elric', 'barack' ]
+names = [ 'jack', 'edward', 'barack'  ]
+surnames = [ 'sparrow', 'elric', 'obama' ]
 
 for n,s in zip( names, surnames ):
     print( n + ' ' + s )
@@ -79,5 +79,13 @@ file.close()
 # with
 with open( "example.txt", 'a+' ) as file:
     file.write( "APPEND\n" )
+
+#   ---   IMPORT   ---   #
+
+import os
+dir( os )
+
+import datetime
+print( datetime.datetime.now( ) )
 
 #   ---   EOF   ---   #
