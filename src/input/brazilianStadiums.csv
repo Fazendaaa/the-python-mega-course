@@ -1,11 +1,11 @@
-NAME,LOCATION,LAT,LON
-Maracana,RJ-Rio de Janeiro,-22.544380,-43.134859
-Mane Garrincha,DF-Brasilia,-15.7835,-47.8992
-Morumbi,SP-Sao Paulo,-23.36045,-46.431256
-Arruda,-Recife,-8.13616,-34.532823
-Engenhao,RJ-Rio de Janeiro,-22.533542,-43.173217
-Castelao,-Ceara,-3.4826,-38.3121
-Mineirao,MG-Belo Horizonte,-19.5157,-43.5815
-Arena do Gremio,-Porto Alegre,-29.582440,-51.113985
-Parque do Sabia,MG-Uberlandia,-18.5450,-48.1357
-Fonte Nova,BH-Salvador,-12.5843,-38.3015
+NAME,CAPACITY,Year Opened,LOCATION,LAT,LON
+Maracana,78838,1950,RJ-Rio de Janeiro,-22.544380,-43.134859
+Mane Garrincha,72888,1974,DF-Brasilia,-15.7835,-47.8992
+Morumbi,67052,1960,SP-Sao Paulo,-23.36045,-46.431256
+Arruda,60044,1972,-Recife,-8.13616,-34.532823
+Engenhao,60000,2007,RJ-Rio de Janeiro,-22.533542,-43.173217
+Castelao,58400,1973,-Ceara,-3.4826,-38.3121
+Mineirao,58170,1959,MG-Belo Horizonte,-19.5157,-43.5815
+Arena do Gremio,55662,2012,-Porto Alegre,-29.582440,-51.113985
+Parque do Sabia,53350,1982,MG-Uberlandia,-18.5450,-48.1357
+Fonte Nova,51708,2013,BH-Salvador,-12.5843,-38.3015
