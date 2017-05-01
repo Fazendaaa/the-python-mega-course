@@ -25,7 +25,7 @@ def add_commmand():
     LIST.insert(END, (TITLE.get(), AUTHOR.get(), YEAR.get(), ISBN.get()))
 
 def get_select_row(event):
-    # pylint: disable=W0612,W0613,global-statement
+    # pylint: disable=W0612,W0613,global-statement,global-variable-undefined
     """Function that select the desired book"""
     global SELECTED_TUPLE
     SELECTED_TUPLE = LIST.get(LIST.curselection()[0])
@@ -55,7 +55,6 @@ def close_command():
 
 #   ------------------------   GLOBAL VARIABLES   --------------------------   #
 
-SELECTED_TUPLE = ''
 CONN = __book_store.connect('../output/book_store.db')
 
 END = tkinter.END
