@@ -33,7 +33,7 @@ def delete(item, conn):
     conn.commit()
 
 def update(item, quantity, price, conn):
-    """Function that delete from SQL defined value"""
+    """Function that updates from SQL defined value"""
     cur = conn.cursor()
     cur.execute("UPDATE store SET quantity=?, price=? WHERE item=?", (quantity, price, item))
     conn.commit()
