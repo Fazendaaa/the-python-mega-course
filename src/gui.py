@@ -1,5 +1,8 @@
 """This a simple program to convert minutes to seconds -- vice-versa"""
-from tkinter import * # pylint: disable=unused-import
+# pylint: disable=unused-import
+from tkinter import *
+
+#   ------------------------   GLOBAL VARIABLES   --------------------------   #
 
 WINDOW = Tk()
 FLAG = True
@@ -8,6 +11,8 @@ TEXT2 = StringVar()
 VALUE = StringVar()
 TEXT1.set("Minutes:")
 TEXT2.set("Seconds:")
+
+#   ----------------------------   FUNCTIONS   -----------------------------   #
 
 def change():
     """This function updates the Label of the entry convertion"""
@@ -30,6 +35,8 @@ def convert():
 
     #   cleans up the screen then print it
     TEXT.replace('1.0', END, value)
+
+#   ------------------------------   MAIN   --------------------------------   #
 
 LABEL_1 = Label(WINDOW, textvariable=TEXT1)
 LABEL_1.grid(row=0, column=0)
