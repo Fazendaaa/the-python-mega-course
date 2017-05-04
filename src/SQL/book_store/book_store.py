@@ -55,7 +55,7 @@ def close_command():
 
 #   ------------------------   GLOBAL VARIABLES   --------------------------   #
 
-CONN = __book_store.connect('../output/book_store.db')
+CONN = __book_store.connect('../../output/book_store.db')
 
 END = tkinter.END
 WINDOW = tkinter.Tk()
