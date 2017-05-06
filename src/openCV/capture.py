@@ -1,4 +1,4 @@
-""""""
+"""Capture video stream from webcam"""
 # pylint: disable=no-member
 import cv2
 
