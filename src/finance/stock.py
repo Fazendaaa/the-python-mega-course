@@ -18,7 +18,7 @@ def in_dec(c, o):
 
 app = Flask( __name__ )
 
-@app.route( '/' )
+@app.route( '/plot/' )
 def plot():
     START = datetime.datetime(2016, 10, 1)
     END = datetime.datetime(2017, 1, 15)
